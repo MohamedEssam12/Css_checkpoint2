@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+body {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+:root {
+    --primary-color : #00b39b;
+    --black-color : rgba(0,0,0);
+    --helvetica-arial : Arial, Helvetica, sans-serif;
+    --work-snas-arial :  "work sans", sans-serif; 
+}
+
+/* --------------HEADER---------------- */
+.header__nav {
+    display: flex;
+    overflow: hidden;
+    justify-content: space-between;
+}
+
+.header__logo {
+    padding: 20px;
+}
+
+
+.header__logo img {
+    width:268px;
+    height: 33px;
+    object-fit: contain;
+}
+
+.header__menu {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header__menu a {
+    color: var(--black-color);
+    opacity: 0.5;
+    font-family: var(--helvetica-arial);
+}
+
+.header__menu a:hover {
+    color: var(--primary-color);
+}
+
+.header__menu-first a {
+    color: var(--primary-color);
+}
+
+
+/* -------------ABOUT US-------------- */
+.about-us {
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 64px;
+}
+
+.about-us__logo img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+
+.about-us > p {
+    font-size: 32px;
+    color: var(--primary-color);
+    font-family: var(--work-snas-arial);
+    padding: 20px;
+}
+
+
