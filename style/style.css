@@ -101,7 +101,7 @@ header {
 }
 
 .about-us__info {
-    width: 60%;
+    width: 80%;
     min-width: 700px;
     margin-top: 5px;
     flex: 1;
@@ -116,4 +116,33 @@ header {
     font-family: var(--helvetica-arial);
     font-size: 16px;
     color: var(--secondary-color);
+}
+
+.about-us__info-cards {
+    margin: 10px auto;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.about-us__card {
+    width: 300px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px 40px 30px 30px;
+    border-radius: 10px;
+}
+
+.about-us__card:first-child {
+    background-color: #00ccb1;
+}
+
+.about-us__card-details h3 {
+    font-family: var(--work-snas-arial);
+    word-spacing: ;
+
 }
