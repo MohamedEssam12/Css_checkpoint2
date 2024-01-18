@@ -10,7 +10,7 @@
 
 
 body {
-    max-width: 1000px;
+    /* width: 1280px; */
     margin: 0 auto;
 }
 
@@ -20,13 +20,21 @@ a {
 
 :root {
     --primary-color : #00b39b;
+    --secondary-color : #747474;
     --black-color : rgba(0,0,0);
     --helvetica-arial : Arial, Helvetica, sans-serif;
     --work-snas-arial :  "work sans", sans-serif; 
 }
 
 /* --------------HEADER---------------- */
+header {
+    display: flex;
+    justify-content: center;
+}
 .header__nav {
+    width: 70%;
+    min-width: fit-content;
+    /* flex: 1; */
     display: flex;
     overflow: hidden;
     justify-content: space-between;
@@ -47,7 +55,7 @@ a {
     display: flex;
     list-style: none;
     flex-direction: row;
-    gap: 30px;
+    gap: 20px;
     justify-content: flex-end;
     align-items: center;
 }
@@ -69,12 +77,14 @@ a {
 
 /* -------------ABOUT US-------------- */
 .about-us {
+    /* width: 60%; */
     display: flex;
     overflow: hidden;
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
     margin-top: 64px;
+    justify-content: center;
 }
 
 .about-us__logo img {
@@ -90,4 +100,20 @@ a {
     padding: 20px;
 }
 
+.about-us__info {
+    width: 60%;
+    min-width: 700px;
+    margin-top: 5px;
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 30px;
+    align-items: center;
+}
 
+.about-us__info p {
+    font-family: var(--helvetica-arial);
+    font-size: 16px;
+    color: var(--secondary-color);
+}
