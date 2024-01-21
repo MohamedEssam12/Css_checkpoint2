@@ -135,14 +135,62 @@ header {
     justify-content: space-between;
     padding: 30px 40px 30px 30px;
     border-radius: 10px;
+    color: white;
 }
 
 .about-us__card:first-child {
     background-color: #00ccb1;
 }
 
-.about-us__card-details h3 {
-    font-family: var(--work-snas-arial);
-    word-spacing: ;
-
+.about-us__card:first-child > .about-us__card-select select {
+    background-color: #00ccb1;
 }
+
+.about-us__card:nth-child(2) {
+    background-color: #3d83df;
+}
+
+.about-us__card:nth-child(2) > .about-us__card-select select {
+    background-color: #3d83df;
+}
+
+.about-us__card:nth-child(3) {
+    background-color: #1b2734;
+}
+
+.about-us__card:nth-child(3) > .about-us__card-select select {
+    background-color: #1b2734;
+}
+
+/* .about-us__card-details {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: space-between;
+} */
+
+.about-us__card-details h3 {
+    margin-top: 12px;
+    font-family: var(--work-snas-arial);
+    font-size: 2rem;
+}
+
+.about-us__card-details p {
+    margin-top: 12px;
+    font-family: var(--work-snas-arial);
+    font-size: 1.2rem;
+}
+
+.about-us__card-details select {
+    margin-top: 40px;
+    background-color: #1b2734;
+}
+
+select {
+    color: white;
+    border: none;
+    font-size: 1.2rem;
+    font-family: var(--work-snas-arial);
+    text-decoration: underline;
+}
+
