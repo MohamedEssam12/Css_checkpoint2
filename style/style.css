@@ -194,3 +194,70 @@ select {
     text-decoration: underline;
 }
 
+.about-us__branches {
+    width: 70%;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    /* align-items: center; */
+}
+
+.about-us__branches p {
+    color: var(--primary-color);
+    font-family: var(--work-snas-arial);
+    font-size: 1.2rem;
+    font-weight: 500;
+    max-width: 30%;
+}
+
+.about-us__branches-logos img {
+    width: 100px;
+    object-fit: contain;
+}
+
+.about-us__branches-logos {
+    max-width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.career {
+    width: 100%;
+    background-color: #d0faf4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px auto;
+    /* gap: 60px; */
+}
+
+.career__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.career__info > p:nth-child(1) {
+    font-family: var(--work-snas-arial);
+    color: var(--primary-color);
+    font-size: 2rem;
+    margin-top: 80px;
+    max-width: 50%;
+}
+
+.career__info > p:nth-child(2) {
+    font-family: var(--work-snas-arial);
+    color: var(--secondary-color);
+    font-size: 1.2rem;
+    margin-top: 50px;
+    max-width: 70%;
+}
+
+.career__info img {
+    width: 450px;
+    height: 330px;
+    object-fit: contain;
+    margin-top: 50px;
+}
