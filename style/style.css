@@ -302,3 +302,70 @@ select {
     line-height: 1.2rem;
 }
 
+.departments {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.departments__header {
+    max-width: 32rem;
+    font-family: var(--work-snas-arial);
+    color: var(--primary-color);
+    font-size: 1.9rem;
+    text-align: center;
+    margin: 90px auto 0;
+}
+
+.departments__info {
+    font-family: 'roboto', sans-serif;
+    color: #747474;
+    margin: 20px auto 0;
+    text-align: center;
+    max-width: 32rem;
+    font-size: 1rem;
+    line-height: 1.6rem;
+}
+
+.departments__places {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 80%;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 130px;
+}
+
+.departments__card-info {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px 0;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+
+.departments__card-info p {
+    font-family: 'roboto', sans-serif;
+    color: #747474;
+    font-size: 1rem;
+}
+
+.departments__card-info button {
+    border: none;
+    background-color: #3d83df;
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.6rem;
+    padding: 9px;
+    border-radius: 3px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.departments__card:hover {
+    box-shadow: 0px -6px 10px 5px rgba(0, 0, 0, 0.1);
+}
