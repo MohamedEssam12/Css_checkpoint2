@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 
 * {
@@ -173,6 +174,7 @@ header {
     margin-top: 12px;
     font-family: var(--work-snas-arial);
     font-size: 2rem;
+    letter-spacing: 2px;
 }
 
 .about-us__card-details p {
@@ -261,3 +263,42 @@ select {
     object-fit: contain;
     margin-top: 50px;
 }
+
+.career__info-card {
+    display: grid;
+    grid-template-columns: repeat(2 , 250px);
+    gap: 50px;
+}
+
+.career__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background-color: white;
+    width: 220px;
+    height: 240px;
+    padding: 20px 10px;
+}
+
+.career__card img {
+    width: 25px;
+    height: 28px;
+    object-fit: contain;
+}
+
+.career__card p:first-of-type {
+    font-family: var(--work-snas-arial);
+    font-size: 1.6rem;
+    color: var(--primary-color);
+    text-align: center;
+}
+
+.career__card p:last-of-type {
+    font-family: 'roboto', sans-serif;
+    font-size: 12px;
+    text-align: center;
+    color: #747474;
+    line-height: 1.2rem;
+}
+
